@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox extension - YT Embed",
+    "version": "1.0",
+    "description": "Present a right-click menu option to open a YouTube link in a new tab, in embedded mode.",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["menus"]
+}
